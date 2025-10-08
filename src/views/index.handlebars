@@ -1,0 +1,13 @@
+<h1>Lista de Restaurantes</h1>
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Rating</th>
+    </tr>
+    {{#each restaurantes}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.rating}}</td>
+    </tr>
+    {{/each}}
+</table>
