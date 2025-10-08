@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-export function createReviews(req: Request, res: Response) {
+export function createReview(req: Request, res: Response) {
     res.status(201).send({});
 }
 
