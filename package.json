@@ -1,0 +1,37 @@
+{
+  "name": "desarollo--servidor-practica-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozcarclemente/desarollo--servidor-practica-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozcarclemente/desarollo--servidor-practica-01/issues"
+  },
+  "homepage": "https://github.com/ozcarclemente/desarollo--servidor-practica-01#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/express-handlebars": "^5.3.1",
+    "@types/mongoose": "^5.11.96",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "nodemon": "^3.1.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
