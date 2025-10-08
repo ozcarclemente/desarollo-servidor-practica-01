@@ -8,6 +8,7 @@ export function getRestaurant(req: Request, res: Response) {
     res.send([]);
 }
 
+// Obtener todos los restaurantes
 export function getRestaurants(req: Request, res: Response) {
     res.send([]);
 }
